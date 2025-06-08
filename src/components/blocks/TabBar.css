@@ -1,0 +1,54 @@
+.tabBar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px 20px;
+    padding-bottom: 34px;
+
+    background-color: var(--color-tab);
+    border-top: 0.33px solid #00000014;
+}
+
+.tabBar_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.07px;
+    font-weight: 510;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.tabBar_item span{
+    margin-top: 5px;
+}
+
+.tabBar_item{
+    opacity: 0.2;
+}
+
+.tabBar_item path {
+    fill: var(--color-text);
+}
+
+.tabBar_item img{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.tabBar_item-selected {
+    color: var(--color-text);
+    opacity: 1;
+}
+
+.tabBar_item-selected path{
+    fill: var(--color-text) !important;
+    opacity: 1;
+}

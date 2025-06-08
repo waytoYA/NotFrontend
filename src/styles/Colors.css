@@ -1,0 +1,27 @@
+:root {
+    --color-text: #000000;
+    --color-bg: #ffffff;
+    --color-text-reverse: #ffffff;
+    --color-bg-reverse: #000000;
+
+    --color-text-secondary: #00000080;
+    --color-bg-secondary: #00000014;
+
+    --color-tab: #ffffff;
+    --color-bg-textfield: #0000000D;
+    --color-modal-close: unset;
+}
+
+[data-theme='dark'] {
+    --color-text: #ffffff;
+    --color-bg: #000000;
+    --color-text-reverse: #000000;
+    --color-bg-reverse: #ffffff;
+
+    --color-text-secondary: #FFFFFF80;
+    --color-bg-secondary: #FFFFFF14;
+
+    --color-tab: #000000;
+    --color-bg-textfield: #FFFFFF0D;
+    --color-modal-close: #B8CADF;
+}

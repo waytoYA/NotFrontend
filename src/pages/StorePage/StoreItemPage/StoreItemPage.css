@@ -1,0 +1,118 @@
+.storeItem {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+}
+
+.storeItem_description {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.43px;
+    margin-bottom: 8px;
+}
+
+.storeItem_tags {
+    display: flex;
+    gap: 8px;
+    margin: 8px 0 10px;
+}
+
+.storeItem_tags_tag {
+    background: var( --color-bg-secondary);
+    color: var(--color-text-secondary);
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-weight: 590;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+}
+
+.storeItem_tags_tag span {
+    color: var(--color-text);
+    margin-right: 2px;
+}
+
+.storeItem_image {
+    width: 100%;
+    /* height: calc(100vh - 365px); */
+    object-fit: cover;
+    flex-shrink: 1;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.storeItem_panel {
+    background: var(--color-bg);
+    padding-top: 8px;
+    max-width: 390px;
+}
+
+.storeItem_panel_images {
+    display: flex;
+    gap: 8px;
+    overflow-x: scroll;
+    padding-bottom: 8px;
+}
+
+.storeItem_panel_images::-webkit-scrollbar { display: none;}
+
+.storeItem_panel_images_image {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    object-fit: cover;
+    border: 1px solid transparent;
+    cursor: pointer;
+}   
+
+.storeItem_panel_images_image:hover {
+    opacity: 0.95;
+}
+
+.storeItem_panel_images_image-selected {
+    border-color: var(--color-text);
+}
+
+.storeItem_panel_buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.storeItem_panel_buttons button {
+    flex: 1;
+}
+
+.storeItem_panel_buttons_quantity {
+    display: flex;
+    justify-content: center;
+    font-weight: 590;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.7px;
+
+    width: 100%;
+    background:  var(--color-bg-secondary);
+    color: var(--color-text);
+    padding: 13px 0;
+    border-radius: 12px;
+    flex: 1;
+    cursor: pointer;
+    text-align: center;
+}
+
+.storeItem_panel_buttons_quantity div {
+    width: 40px;
+    height: 25px;
+}
+
+.storeItem_panel_buttons_quantity span {
+    font-size: 20px;
+    letter-spacing: 0px;
+    min-width: 20px;
+}

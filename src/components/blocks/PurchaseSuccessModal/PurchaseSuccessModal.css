@@ -1,0 +1,48 @@
+.purchaseSuccess {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background: #000000B2;
+    backdrop-filter: blur(8px);
+    transition: all 0.5s ease-in;
+    z-index: 3;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.purchaseSuccess_gif {
+    width: 320px;
+    height: 320px;
+}
+
+.purchaseSuccess_title{
+    font-weight: 590;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.4px;
+    margin: 24px 0 12px;
+}
+
+.purchaseSuccess_subtitle{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.43px;
+    
+}
+
+.purchaseSuccess_button{
+    margin-top: 60px;
+    background: #fff !important;
+    color: #000 !important;
+}
+
+

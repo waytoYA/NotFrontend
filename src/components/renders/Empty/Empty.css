@@ -1,0 +1,21 @@
+.empty {
+    display: contents;
+    color: var(--color-text)
+}
+
+.empty h1 {
+    font-weight: 590;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.38px;
+    text-align: center;
+    
+}
+
+.empty span {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.43px;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.swipeCarousel {
+    width: 100%;
+    overflow: hidden;
+    touch-action: pan-y;
+    user-select: none;
+}
+  
+.swipeTrack {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+  
+.swipeImage {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+  

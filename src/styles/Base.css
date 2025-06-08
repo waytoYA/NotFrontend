@@ -1,0 +1,30 @@
+
+body {
+    font-family: "SF Pro Text", 'Arial';
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+#root {
+    height: 100vh;
+}
+
+.container {
+    max-width: 390px;
+    margin: 0 auto;
+    /* margin-bottom: 83px; */
+    padding: 16px;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    opacity: 0.8;
+}
